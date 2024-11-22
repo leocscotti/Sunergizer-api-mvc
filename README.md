@@ -2,6 +2,17 @@
 
 Projeto de api full mvc para a global solution.
 
+## Modelo lógico do banco de dados
+
+![image](https://github.com/user-attachments/assets/bfaf4716-ee46-439b-8d1a-0c42b073ffc6)
+
+Esse é o modelo lógico das tabelas no banco de dados, escolhemos usar apenas 4 entidades pois julgamos ser as mais importantes pro backend:
+
+- **Usuario** (que no contexto de java virou Cliente para não confundir com a entidade Usuario do spring security).
+- **Fonte Energia**
+- **Comunidade**
+- **Consumo**
+
 ## Integrantes
 
 ### Leonardo Cordeiro Scotti- RM550769
