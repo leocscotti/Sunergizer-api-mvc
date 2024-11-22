@@ -47,7 +47,7 @@ Projeto de api full mvc para a global solution.
   GET /clientes
 ```
 
-#### Obter cliente por id 
+- #### Obter cliente por id 
 
 ```http
   GET /clientes/${id}
@@ -200,7 +200,7 @@ Body:
   GET /comunidades
 ```
 
-#### Obter comunidade por id 
+- #### Obter comunidade por id 
 
 ```http
   GET /comunidades/${id}
@@ -273,13 +273,13 @@ Body:
 | `id`      | `Long` | **Obrigatório**. Id da comunidade a ser excluída |
 
 
-- #### Obter todas os consumos 
+- #### Obter todos os consumos 
 
 ```http
   GET /consumos
 ```
 
-#### Obter consumo por id 
+- #### Obter consumo por id 
 
 ```http
   GET /consumos/${id}
@@ -352,11 +352,11 @@ Body:
 | `id`      | `Long` | **Obrigatório**. Id do consumo a ser excluído |
 
 
-## Link do vídeo explicativo do projeto
+### Link do vídeo explicativo do projeto
 
 https://www.youtube.com/watch?v=cO6uMpZ8n6g
 
 
-## Link do vídeo da apresentação PITCH
+### Link do vídeo da apresentação PITCH
 
 https://www.youtube.com/watch?v=PIyj0vSl3zk
