@@ -4,7 +4,8 @@ Projeto de api full mvc para a global solution.
 
 ## Modelo lógico do banco de dados
 
-![image](https://github.com/user-attachments/assets/bfaf4716-ee46-439b-8d1a-0c42b073ffc6)
+https://github.com/user-attachments/assets/4996c50c-5696-4e0f-864f-50aa0e1c351c
+
 
 Esse é o modelo lógico das tabelas no banco de dados, escolhemos usar apenas 4 entidades pois julgamos ser as mais importantes pro backend:
 
