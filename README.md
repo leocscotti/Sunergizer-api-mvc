@@ -4,7 +4,7 @@ Projeto de api full mvc para a global solution.
 
 ## Modelo lógico do banco de dados
 
-![388931797-4996c50c-5696-4e0f-864f-50aa0e1c351c](https://github.com/user-attachments/assets/17cbc754-e1a6-49da-9952-393056b5d44c)
+![388931797-4996c50c-5696-4e0f-864f-50aa0e1c351c]
 
 
 
