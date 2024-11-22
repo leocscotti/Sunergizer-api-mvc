@@ -355,3 +355,8 @@ Body:
 ## Link do vídeo explicativo do projeto
 
 https://www.youtube.com/watch?v=cO6uMpZ8n6g
+
+
+## Link do vídeo da apresentação PITCH
+
+https://www.youtube.com/watch?v=PIyj0vSl3zk
