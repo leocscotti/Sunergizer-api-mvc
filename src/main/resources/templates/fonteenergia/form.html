@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Formulário de Fonte de Energia</title>
+  <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+<h1>Formulário de Fonte de Energia</h1>
+<form th:action="@{/view/fontesenergia}" th:object="${fonteEnergia}" method="post">
+  <label for="tipo">Nome:</label>
+  <input type="text" id="tipo" th:field="*{tipo}" required/>
+
+  <label for="descricao">Descrição:</label>
+  <textarea id="descricao" th:field="*{descricao}" required></textarea>
+
+  <button type="submit">Salvar</button>
+</form>
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Comunidades</title>
+  <link rel="stylesheet" th:href="@{/styles.css}">
+
+</head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+<h1>Lista de Comunidades</h1>
+<a th:href="@{/view/comunidades/novo}">Adicionar Comunidade</a>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Nome</th>
+    <th>Cidade</th>
+    <th>UF</th>
+    <th>População</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="comunidade : ${comunidades}">
+    <td th:text="${comunidade.id}"></td>
+    <td th:text="${comunidade.nome}"></td>
+    <td th:text="${comunidade.cidade}"></td>
+    <td th:text="${comunidade.uf}"></td>
+    <td th:text="${comunidade.totalPessoas}"></td>
+    <td>
+      <a th:href="@{'/view/comunidades/editar/' + ${comunidade.id}}">Editar</a>
+      <a th:href="@{'/view/comunidades/deletar/' + ${comunidade.id}}">Deletar</a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>

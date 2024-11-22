@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunergizer - Página Inicial</title>
+    <link rel="stylesheet" th:href="@{/styles.css}">
+</head>
+<body>
+<div th:insert="fragments/header :: header"></div>
+
+<main>
+    <section>
+        <h1>Bem-vindo ao Sunergizer</h1>
+        <p>Gerencie seus clientes e comunidades de forma fácil e prática.</p>
+
+        <div class="navigation-links">
+            <a th:href="@{/view/clientes}" class="button">Gerenciar Clientes</a>
+            <a th:href="@{/view/comunidades}" class="button">Gerenciar Comunidades</a>
+            <a th:href="@{/view/fontesenergia}" class="button">Gerenciar Fontes de Energia</a>
+        </div>
+    </section>
+</main>
+<div th:insert="fragments/footer :: footer"></div>
+</body>
+</html>
