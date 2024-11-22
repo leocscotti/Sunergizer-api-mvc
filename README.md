@@ -323,7 +323,7 @@ Body:
 | `idCliente`    | `Long` | id do cliente do consumo correspondente a ser criado   |
 | `idFonte`   | `Long` | id da fonte de energia do consumo correspondente a ser criado |
 | `dataRegistro`   | `LocalDateTime` | Data de registro do consumo a ser criado  |
-| `kwhConsumidos` | `int` | kWh consumidos do consumo a ser criado |
+| `kwhConsumidos` | `Double` | kWh consumidos do consumo a ser criado |
 
 - #### Atualizar consumo 
 
@@ -351,7 +351,7 @@ Body:
 | `idCliente`    | `Long` | id do cliente do consumo correspondente a ser atualizado   |
 | `idFonte`   | `Long` | id da fonte de energia do consumo correspondente a ser atualizado |
 | `dataRegistro`   | `LocalDateTime` | Data de registro do consumo a ser atualizado  |
-| `kwhConsumidos` | `int` | kWh consumidos do consumo a ser atualizado |
+| `kwhConsumidos` | `Double` | kWh consumidos do consumo a ser atualizado |
 
 - #### Excluir consumo 
 
@@ -363,6 +363,12 @@ Body:
 |:----------|:-------|:----------------------------------------------|
 | `id`      | `Long` | **Obrigatório**. Id do consumo a ser excluído |
 
+
+## Funcionalidade da IA
+
+A IA implementada com o springai e ollama3.2, tem como função dar sugestões para otimizar e melhorar o consumo de energia.
+
+O paramêtro a ser passado é o khwConsumidos da entidade consumo, como é um número, dependendo do valor, a IA retornará uma mensagem pro usuário para otimizar o seu consumo.
 
 ### Link do vídeo explicativo do projeto
 
